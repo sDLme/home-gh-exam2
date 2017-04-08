@@ -1,0 +1,20 @@
+.site-head {
+  padding: 15px 0;
+}
+
+.my-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.nav-info {
+  display: flex;
+  color: #fff;
+
+  .menu-item {
+    margin: 10px;
+    &:hover {
+      color: $secondary-prime-color;
+    }
+  }
+}

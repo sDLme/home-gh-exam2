@@ -1,0 +1,12 @@
+.portfolio-filter {
+  display: flex;
+  justify-content: center;
+  .filter-item {
+    margin: 10px;
+    border-bottom: 2px solid transparent;
+    &:hover {
+      color: $secondary-prime-color;
+      border-bottom: 2px solid $secondary-prime-color;
+    }
+  }
+}

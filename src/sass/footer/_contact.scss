@@ -1,0 +1,31 @@
+.contact {
+  background: url("../images/bg-contact.jpg") center no-repeat;
+  background-size: cover;
+  .map {
+    margin-top: 100px;
+  }
+  .contact-us {
+    padding-left: 0;
+    color: #fff;
+  }
+}
+.phone,
+.local {
+  display: block;
+  line-height: 41px;
+  padding-left: 35px;
+  font-weight: 300;
+}
+.phone {
+  background: url("../images/phone-icone.png") left no-repeat;
+}
+.local {
+  background: url("../images/local-icon.png") left no-repeat;
+}
+
+[type='submit'] {
+  padding: 10px 60px;
+  border: none;
+  background: $secondary-prime-color;
+  color: #fff;
+}

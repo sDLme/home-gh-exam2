@@ -1,0 +1,28 @@
+{
+  "name": "home-gh-exam",
+  "version": "2.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mari",
+  "license": "ISC",
+  "description": "home-gh-exam",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1",
+    "imagemin-pngquant": "^5.0.0"
+  },
+  "dependencies": {
+    "bootstrap-v4-dev": "4.0.0-alpha.5",
+    "slick-carousel": "1.6.0"
+  }
+}
